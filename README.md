@@ -27,7 +27,7 @@ Check for the available versions with:
 asdf list java
 ```
 
-Were going to install Java 8.172 and use it system wide:
+We're going to install Java 8.172 and use it system wide:
 ```
 asdf install java 8.172
 asdf global java 8.172
@@ -36,4 +36,17 @@ asdf global java 8.172
 Check for the current version with:
 ```
 asdf current java
+```
+
+## Eclipse
+We will install Eclipse Oxygen in this guide, download it from https://www.eclipse.org/downloads/
+
+Extract:
+```
+tar xfz ~/Downloads/eclipse-inst-linux64.tar.gz
+```
+
+Install:
+```
+~/Downloads/eclipse-installer/eclipse-inst
 ```
