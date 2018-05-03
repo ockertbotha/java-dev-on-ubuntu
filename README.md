@@ -49,7 +49,7 @@ If all is not as it seems you can confirm which java is running with:
 ```
 which java
 ```
-This should indicate your version of:
+Which should point to your version of this:
 ```
 /home/yourusername/.asdf/shims/java
 ```
