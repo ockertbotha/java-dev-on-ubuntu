@@ -66,12 +66,34 @@ Intrepid readers can learn more about shims here (https://en.wikipedia.org/wiki/
 ## Eclipse
 We will install Eclipse Oxygen in this guide, download it from https://www.eclipse.org/downloads/
 
+From your Downloads directory:
+```
+cd ~/Downloads
+```
+
 Extract:
 ```
 tar xfz ~/Downloads/eclipse-inst-linux64.tar.gz
 ```
 
-Install:
+Launch the GUI installer with:
 ```
 ~/Downloads/eclipse-installer/eclipse-inst
 ```
+
+You can select whichever version you wish but if you want to follow this guide then choose:
+```
+Eclipse IDE for Java EE Developers
+```
+
+Accept the default installation folder which should be your version of:
+```
+/home/yourusername/eclipse/jee-oxygen
+```
+
+Read and accept the licenses. When the installation completes, choose the launch option; the first action is to select a directory as a workspace, you can select any directory but of you want to follow this guide exactly then set it to:
+```
+/home/yourusername/Studio
+```
+
+Next step install Egit. 
