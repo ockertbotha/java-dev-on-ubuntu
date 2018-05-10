@@ -2,13 +2,13 @@
 Setting up a Java development environment on Ubuntu desktop.
 
 Our current development environment is going consist of:
-1. Ubuntu 16.04 LTS
+1. Ubuntu 18.04 LTS
 2. asdf version manager with Java extensions
 3. Eclipse with git integration
 
-## 1. Ubuntu 16.04 LTS
+## 1. Ubuntu 18.04 LTS
 This guide is not going to cover the installation and configuration of the OS or the tools and utilities used to reach this point but they are confirmed here for completeness:
-- Ubuntu 16.04 LTS
+- Ubuntu 18.04 LTS
 - git-core
 - curl
 - ssh
