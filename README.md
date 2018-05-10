@@ -19,6 +19,9 @@ Unless it is stated differently, all commands should be entered using the Termin
 ## 2. asdf
 This will enable us to not only install our JDKs but also switch between them on a per project basis, install the core of the utility following the instructions here: https://github.com/asdf-vm/asdf
 
+Close the Terminal and start a new one so that the changes
+can take effect.
+
 Once asdf is installed and configured, add the Java plugin with:
 ```
 asdf plugin-add java
@@ -26,12 +29,16 @@ asdf plugin-add java
 
 Check for the available versions with:
 ```
-asdf list java
+asdf list-all  java
 ```
 
-We're going to install Java 8.172 and use it system wide:
+We're going to install Java 8.172:
 ```
 asdf install java 8.172
+```
+
+We'll use this version system wide:
+```
 asdf global java 8.172
 ```
 
@@ -49,10 +56,11 @@ If all is not as it seems you can confirm which java is running with:
 ```
 which java
 ```
-Which should point to your version of this:
+Which should point to your version of the shims file:
 ```
 /home/yourusername/.asdf/shims/java
 ```
+Intrepid readers can learn more about shims here (https://en.wikipedia.org/wiki/Shim_(computing))
 
 
 ## Eclipse
