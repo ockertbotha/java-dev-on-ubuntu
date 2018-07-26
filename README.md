@@ -110,7 +110,7 @@ The guides listed in this section are extensive covering many aspects of EGit yo
 
 > You may jump to the next section to continue with a simple
 > step-by-step guide, but remember the guides listed here
-> have much more information you may find useful.
+> have much more information which you may find useful.
 
 * [Official EGit User Guider] http://wiki.eclipse.org/EGit/User_Guide#Getting_Started.2FAdding_a_project_to_version_control
 * [Vogella: Git version control with Eclipse/Egit] http://www.vogella.com/tutorials/EclipseGit/article.html#exercise-working-with-a-local-git-repository-in-eclipse
