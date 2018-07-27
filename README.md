@@ -1,7 +1,7 @@
 # java-dev-on-ubuntu
 Setting up a Java development environment on Ubuntu desktop.
 
-Our current development environment is going consist of:
+Our current development environment is going to consist of:
 1. Ubuntu 18.04 LTS
 2. asdf version manager with Java extensions
 3. Eclipse with git integration
