@@ -8,6 +8,7 @@ Our current development environment is going to consist of:
 
 ## 1. Ubuntu 18.04 LTS
 This guide is not going to cover the installation and configuration of the OS or the tools and utilities used to reach this point but they are confirmed here for completeness:
+- [ ] Next clean installation change this section to include the details on how to check for and correctly install some of the utilities, especially cover ssh key file permissions.
 - Ubuntu 18.04 LTS
 - git-core
 - curl
@@ -32,15 +33,17 @@ Check for the available versions with:
 asdf list-all  java
 ```
 
-We're going to install Java 8.172:
+We're going to install Java oracle-8.181:(While we still can!)
 ```
-asdf install java 8.172
+asdf install java oracle-8.181
 ```
+The command initiates the download of the selected JDK which can take a while, but once complete the JDK should have been successfully installed.
 
 We'll use this version system wide:
 ```
-asdf global java 8.172
+asdf global java oracle-8.181
 ```
+But once setup properly you could use different versions per project by setting the asdf java on that directory.
 
 Check for the current version with:
 ```
