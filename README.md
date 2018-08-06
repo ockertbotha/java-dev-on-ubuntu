@@ -65,6 +65,11 @@ Which should point to your version of the shims file:
 ```
 Intrepid readers can learn more about shims here (https://en.wikipedia.org/wiki/Shim_(computing))
 
+If during some future tinkering you need to modify something about your locally installed versions of the JDK then you can find the install directories here:
+```
+/home/yourusername/.asdf/installs/java
+```
+
 
 ## 3. Eclipse
 We will install Eclipse Oxygen in this guide, download it from https://www.eclipse.org/downloads/
