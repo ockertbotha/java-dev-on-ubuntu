@@ -72,7 +72,7 @@ If during some future tinkering you need to modify something about your locally 
 
 
 ## 3. Eclipse
-We will install Eclipse Oxygen in this guide, download it from https://www.eclipse.org/downloads/
+We will install Eclipse Photon in this guide, download it from https://www.eclipse.org/downloads/
 
 From your Downloads directory:
 ```
@@ -96,13 +96,14 @@ Eclipse IDE for Java EE Developers
 
 Accept the default installation folder which should be your version of:
 ```
-/home/yourusername/eclipse/jee-oxygen
+/home/yourusername/eclipse/jee-photon
 ```
 
 Read and accept the licenses. When the installation completes, choose the launch option; the first action is to select a directory as a workspace, you can select any directory but of you want to follow this guide exactly then set it to:
 ```
-/home/yourusername/Studio
+/home/yourusername/Studio/Dev/eclipse-workspace
 ```
+Once Eclipse has started you may dismiss the Welcome screen and uncheck the "Always show Welcome at start up" option, unless you like it and want to be welcomed every time, totally up to you.
 
 ## 4. Version control with Git and Eclipse Egit
 
