@@ -112,7 +112,11 @@ This section covers a few large and complicated topics, we don't have the scope 
 ### 4.1 Version control and Git
 If you're here there's a good chance you know what version control is, if not just know it's a type of system used by developers to manage the source code they write. Obviously there is a lot more to it than that and the following link provides an excellent overview of how Git works and compares it to some of the other systems. [Git for Eclipse Users]http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users
 
-### 4.2 Installing EGit
+### 4.2 Installing EGit (Workspace Setup)
+Our version of Eclipse already as Egit installed. You can check this from the main Eclipse window by navigating to  **Window** > **Show View** > **Other** this will open the **Show View** window and in the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git windows.
+
+> While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**
+> It might be added to the bottom part of your workspace, I prefer to have it to the left next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
 
 ### 4.3 EGit User Guides
 The guides listed in this section are extensive covering many aspects of EGit you may not use, but it might be good to know they exist.
