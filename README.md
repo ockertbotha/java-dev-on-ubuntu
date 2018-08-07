@@ -115,7 +115,7 @@ If you're here there's a good chance you know what version control is, if not ju
 ### 4.2 Installing EGit (Workspace Setup)
 Our version of Eclipse already as Egit installed. You can check this from the main Eclipse window by navigating to  **Window** > **Show View** > **Other** this will open the **Show View** window and in the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git windows.
 
-> While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**
+> While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**.
 > It might be added to the bottom part of your workspace, I prefer to have it to the left next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
 
 ### 4.3 EGit User Guides
