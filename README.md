@@ -128,8 +128,8 @@ The guides listed in this section are extensive covering many aspects of EGit yo
 ## 5. Step-by-step: Setting up your local Eclipse Git friendly Workspace
 ### Step 1: Where's git? Egit? Anyone?
 From the main Eclipse window navigate to  **Window** > **Show View** > **Other** this will open the **Show View** window and in the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git windows.
-[Window > Show View > Other](images/screenshots/01-Menus.png)
-[Search for Git](images/screenshots/02-Menus.png)
+![](images/screenshots/01-Menus.png?raw=true)
+![](images/screenshots/02-Menus.png?raw=true)
 
 > While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**.
 > It might be added to the bottom part of your workspace, I prefer to have it to the left next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
