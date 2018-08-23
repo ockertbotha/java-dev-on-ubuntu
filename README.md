@@ -130,7 +130,7 @@ The guides listed in this section are extensive covering many aspects of EGit yo
 From the main Eclipse window navigate to  **Window** > **Show View** > **Other** this will open the **Show View** window.
 ![](images/screenshots/01-Menus.png?raw=true)
 
-In the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git windows.
+In the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git views.
 ![](images/screenshots/02-Menus.png?raw=true)
 
 While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**.
@@ -139,7 +139,21 @@ It might be added to the bottom part of your workspace like this:
 ![](images/screenshots/03-MoveWindow.png?raw=true)
 
 I prefer to have it to the left next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
-![](images/screenshots/03-MoveWindow.png?raw=true)
+Like this:
+![](images/screenshots/04-MoveWindow.png?raw=true)
 
-### Step 2: Clone our first Github project
+### Step 2: Clone Github projects
+There are many (...well a few) ways to clone these cats... umm sorry projects. We'll start with the simplest and work our way up.
+**Use HTTPS**
+In web browser navigate to Github project home of your choice, but definitely choose to go to this one if you're following the guide closely:
+![java-ropax-engine](https://github.com/ockertbotha/java-ropax-engine)
+On the page; make sure you're viewing the **<> Code** tab, click on the *'Clone or download'* button, if the box opens up a **Clone with SSH** title,
+click the *'Use HTTPS'* link.
+![](images/screenshots/05-GithubFirstCloneSSH.png?raw=true)
+
+With the **Clone with HTTPS** details showing you can copy the URL by clicking the copy button, or as you would normally copy any text.
+![](images/screenshots/06-GithubFirstCloneHTTP.png?raw=true)
+
+
+
 ### Step 3: Add a local git project
