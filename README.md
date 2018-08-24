@@ -144,15 +144,18 @@ Like this:
 
 ### Step 2: Clone Github projects
 There are many (...well a few) ways to clone these cats... umm sorry projects. We'll start with the simplest and work our way up.
-**Use HTTPS**
-In web browser navigate to Github project home of your choice, but definitely choose to go to this one if you're following the guide closely:
-![java-ropax-engine](https://github.com/ockertbotha/java-ropax-engine)
+
+**Using HTTPS**
+In a web browser navigate to a Github project home of your choice, but definitely choose to go to this one if you're following the guide closely:
+![java-ropax-engine](https://github.com/ockertbotha/test-github-clone)
+
 On the page; make sure you're viewing the **<> Code** tab, click on the *'Clone or download'* button, if the box opens up a **Clone with SSH** title,
 click the *'Use HTTPS'* link.
-![](images/screenshots/05-GithubFirstCloneSSH.png?raw=true)
+![](images/screenshots/05-1-GithubFirstCloneSSH.png?raw=true)
 
-With the **Clone with HTTPS** details showing you can copy the URL by clicking the copy button, or as you would normally copy any text.
-![](images/screenshots/06-GithubFirstCloneHTTP.png?raw=true)
+With the **Clone with HTTPS** details showing you can copy the URL by clicking the copy button.
+![](images/screenshots/06-1-GithubFirstCloneHTTP.png?raw=true)
+
 
 
 
