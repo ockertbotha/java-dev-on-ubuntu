@@ -136,7 +136,7 @@ In the search bar enter *'Git'* if everything is installed correctly this will d
 While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**.
 
 It might be added to the bottom part of your workspace like this:
-![](images/screenshots/03-MoveWindow.png?raw=true)
+![](images/screenshots/03-1-MoveWindow.png?raw=true)
 
 I prefer to have it to the left next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
 Like this:
