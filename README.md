@@ -128,9 +128,9 @@ The guides listed in this section are extensive covering many aspects of EGit yo
 ## 5. Step-by-step: Setting up your local Eclipse Git friendly Workspace
 ### Step 1: Where's git? Egit? ...anyone?
 From the main Eclipse window navigate to  **Window** > **Show View** > **Other** this will open the **Show View** window.
-![](images/screenshots/01-Menus.png?raw=true)
+![](images/screenshots/01-1-Menus.png?raw=true)
 
-In the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git views.
+In the search bar enter *'Git'* if everything is installed correctly this will display a list of the available Git views. If the *'Git'* options are not displayed then you will need to perform some troubleshooting which is beyond the scope of the current guide; but as a hint make sure you've installed the correct version of Eclipse.
 ![](images/screenshots/02-Menus.png?raw=true)
 
 While we're here let's add the **Git Repositories** view to our workspace by selecting it and choosing **Open**.
@@ -138,7 +138,7 @@ While we're here let's add the **Git Repositories** view to our workspace by sel
 It might be added to the bottom part of your workspace like this:
 ![](images/screenshots/03-1-MoveWindow.png?raw=true)
 
-I prefer to have it to the left next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
+I prefer to have it to the left, next to the **Project View** you can simply drag it by clicking in the *title bar* and moving it to your desired destination.
 Like this:
 ![](images/screenshots/04-MoveWindow.png?raw=true)
 
@@ -147,7 +147,7 @@ There are many (...well a few) ways to clone these cats... umm sorry projects. W
 
 **Using HTTPS**
 In a web browser navigate to a Github project home of your choice, but definitely choose to go to this one if you're following the guide closely:
-![java-ropax-engine](https://github.com/ockertbotha/test-github-clone)
+![test-github-clone](https://github.com/ockertbotha/test-github-clone)
 
 On the page; make sure you're viewing the **<> Code** tab, click on the *'Clone or download'* button, if the box opens up a **Clone with SSH** title,
 click the *'Use HTTPS'* link.
