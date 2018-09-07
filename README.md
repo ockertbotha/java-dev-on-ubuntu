@@ -156,7 +156,12 @@ click the *'Use HTTPS'* link.
 With the **Clone with HTTPS** details showing you can copy the URL by clicking the copy button.
 ![](images/screenshots/06-1-GithubFirstCloneHTTP.png?raw=true)
 
+From the **Git Repositories** view we opened earlier click on the *'Clone a Git repository'* link this will open the *'Clone Git Repository'* window,
+paste the URL we copied from *'Github'* into the URI field the rest of the underlined fields automatically populate after the paste,
+but check that they match the values below. For this type of *'Clone'* we won't need any authentication and you may click *'Next'*.
+![](images/screenshots/07-EgitSourceSetting.png?raw=true)
 
+## Workspace v Project Directory
 
 
 ### Step 3: Add a local git project
