@@ -161,6 +161,9 @@ paste the URL we copied from *'Github'* into the URI field the rest of the under
 but check that they match the values below. For this type of *'Clone'* we won't need any authentication and you may click *'Next'*.
 ![](images/screenshots/07-EgitSourceSetting.png?raw=true)
 
+When the *'Branch Selection'* window launches it should have selected the *'master'* by default, if not then make sure it is selected, and click *'next'*.
+![](images/screenshots/08-EgitBranchSelection.png?raw=true)
+
 ## Workspace v Project Directory
 
 
