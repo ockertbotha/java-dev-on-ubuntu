@@ -164,6 +164,15 @@ but check that they match the values below. For this type of *'Clone'* we won't 
 When the *'Branch Selection'* window launches it should have selected the *'master'* by default, if not then make sure it is selected, and click *'next'*.
 ![](images/screenshots/08-EgitBranchSelection.png?raw=true)
 
+
+Since we're keeping things simple this time around, in the *'Local Destination'* change the value of the *'Directory'* field to:
+```
+/home/yourusername/Studio/Dev/
+```
+and click *'Finish'*.
+![](images/screenshots/09-EgitLocalDestination.png?raw=true)
+
+
 ## Workspace v Project Directory
 
 
