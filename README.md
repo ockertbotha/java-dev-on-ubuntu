@@ -165,15 +165,15 @@ When the *'Branch Selection'* window launches it should have selected the *'mast
 ![](images/screenshots/08-EgitBranchSelection.png?raw=true)
 
 
-Since we're keeping things simple this time around, in the *'Local Destination'* change the value of the *'Directory'* field to:
+Since we're keeping things simple this time around, in the *'Local Destination'* window change the value of the *'Directory'* field to:
 ```
-/home/yourusername/Studio/Dev/
+/home/yourusername/Studio/Dev/test-github-clone
 ```
 and click *'Finish'*.
 ![](images/screenshots/09-EgitLocalDestination.png?raw=true)
 
-
 ## Workspace v Project Directory
+> It's time we had a chat about something...
 
 
 ### Step 3: Add a local git project
