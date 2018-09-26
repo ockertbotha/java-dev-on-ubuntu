@@ -180,6 +180,7 @@ cd ~/Studio/Dev
 tree test-github-clone/
 ```
 ![](images/screenshots/10-TreeOnTestProject.png?raw=true)
+
 As you can see there is currently only the README.md file in the root of the project, this might change
 as we test a few concepts but as long as you have the directory and some files you're good.
 
@@ -196,6 +197,13 @@ tree -lsa test-github-clone/
 > Project into our Workspace, we will be importing the Project into
 > our Workspace but to prevent git detecting and potentially including
 > any Eclipse specific files we'll keep Eclipse away from the Project directory.
+
+Import project.
+
+Make changes: branch? / commit.
+
+Delete project.
+
 
 
 ### Step 3: Add a local git project
