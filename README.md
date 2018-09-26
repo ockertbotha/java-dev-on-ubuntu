@@ -172,14 +172,17 @@ Since we're keeping things simple this time around, in the *'Local Destination'*
 and click *'Finish'*.
 ![](images/screenshots/09-EgitLocalDestination.png?raw=true)
 
-Let's take a look at what was cloned, the first command navigates us to the correct starting place for the commmands
-to follow, but as long as the path given to any of the commands resolves correctly you can do this anyway you like:
+Voila! The project is cloned.
+![](images/screenshots/10-EgitCloneComplete.png?raw=true)
+
+Let's use the Terminal to take a look at what was cloned, the first command navigates us to the correct starting place for the commmands
+that follow, but as long as the path given to any of the commands resolves correctly you can do this anyway you like:
 ```
 cd ~/Studio/Dev
 
 tree test-github-clone/
 ```
-![](images/screenshots/10-TreeOnTestProject.png?raw=true)
+![](images/screenshots/11-TreeOnTestProject.png?raw=true)
 
 As you can see there is currently only the README.md file in the root of the project, this might change
 as we test a few concepts but as long as you have the directory and some files you're good.
@@ -189,7 +192,7 @@ and if you interested to see the full scope of what we have cloned you can run t
 ```
 tree -lsa test-github-clone/
 ```
-![](images/screenshots/11-FullTreeOnTestProject.png?raw=true)
+![](images/screenshots/12-FullTreeOnTestProject.png?raw=true)
 
 ## Workspace v Project Directory
 > Before we go any further, if you've paid attention and particularly if you're
