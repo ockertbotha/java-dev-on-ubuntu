@@ -142,11 +142,11 @@ I prefer to have it to the left, next to the **Project View** you can simply dra
 Like this:
 ![](images/screenshots/04-MoveWindow.png?raw=true)
 
-### Step 2: Clone Github projects
+### Step 2: Clone GitHub projects
 There are many (...well a few) ways to clone these cats... umm sorry projects. We'll start with the simplest and work our way up.
 
 **Using HTTPS**
-In a web browser navigate to a Github project home of your choice, but definitely choose to go to this one if you're following the guide closely:
+In a web browser navigate to a GitHub project home of your choice, but definitely choose to go to this one if you're following the guide closely:
 ![test-github-clone](https://github.com/ockertbotha/test-github-clone)
 
 On the page; make sure you're viewing the **<> Code** tab, click on the *'Clone or download'* button, if the box opens up a **Clone with SSH** title,
@@ -157,7 +157,7 @@ With the **Clone with HTTPS** details showing you can copy the URL by clicking t
 ![](images/screenshots/06-1-GithubFirstCloneHTTP.png?raw=true)
 
 From the **Git Repositories** view we opened earlier click on the *'Clone a Git repository'* link this will open the *'Clone Git Repository'* window,
-paste the URL we copied from *'Github'* into the URI field the rest of the underlined fields automatically populate after the paste,
+paste the URL we copied from *'GitHub'* into the URI field the rest of the underlined fields automatically populate after the paste,
 but check that they match the values below. For this type of *'Clone'* we won't need any authentication and you may click *'Next'*.
 ![](images/screenshots/07-EgitSourceSetting.png?raw=true)
 
@@ -201,12 +201,26 @@ tree -lsa test-github-clone/
 > our Workspace but to prevent git detecting and potentially including
 > any Eclipse specific files we'll keep Eclipse away from the Project directory.
 
-Import project.
+### Step 3: Managing a project in Eclipse Workspace
+First we'll import the cloned project into our workspace. On the *'Git'* tab, select the cloned project, right-click to launch
+the context-sensitive menu and select *'Import Projects'*
+![](images/screenshots/13-EclipseImportProjectMenu.png?raw=true)
+
+We're keeping things simple so, on the *'Import Projects...'* window that opens
+make sure that the path of the *'Import Source'* field points to the root
+of the cloned project and select *'Finish'*.
+![](images/screenshots/14-EclipseImportProject.png?raw=true)
+
+Once the import has completed the project including the README.md is available
+to view in your *'Eclipse Workspace'*
+![](images/screenshots/15-EclipseAfterProjectImport.png?raw=true)
 
 Make changes: branch? / commit.
 
 Delete project.
 
+### Step 4: Add a local git project
+You can clone git repo from anywhere and even keep them local, which doesn't seem like a good idea for anything that would be worth creating a repo for in the first place,
+but just so that we can say "We Got The T-Shirt" here we go...
 
-
-### Step 3: Add a local git project
+### Step 5: Getting SSH Access to a GitHub Repository
