@@ -243,8 +243,8 @@ tree -lsa test-github-clone/
 > Before we go any further, if you've paid attention and particularly if you're
 > familiar with Eclipse you will have noticed that we did not clone the
 > Project into our Workspace, we will be importing the Project into
-> our Workspace but to prevent git detecting and potentially including
-> any Eclipse specific files we'll keep Eclipse away from the Project directory.
+> our Workspace. This is only to add a level of separation between the IDE and version
+> control systems, at least until we're more familiar with both.
 
 ### Step 3: Managing a project in Eclipse Workspace
 First we'll import the cloned project into our workspace. On the *'Git'* tab,
@@ -262,6 +262,24 @@ Once the import has completed the project including the README.md is available
 to view in your *'Eclipse Workspace'*
 ![](images/screenshots/15-EclipseAfterProjectImport.png?raw=true)
 
+
+Now would be a good time for you to make a change and commit it. But before we
+go wild let's switch to a branch created just for that purpose.
+
+The branch is called 'Users' and we can switch to it from the
+*'Project Explorer'* by right-clicking on the project folder to open the context
+sensitive menu then opening the *'Team'* menu, then the *'Switch To'* menu which
+will open a menu of the available branches, currently there are only the
+'master' and 'Users' branches available and since we're already on the 'master'
+branch only the *'Users'* option is enabled. Go ahead and click it to make the
+switch.
+![](images/screenshots/16-EclipseSwitchBranch.png?raw=true)
+
+Once the switch is complete (and it should only take moments) the branch
+indicator in the *'Project Explorer'* will confirm that 'Users' is the
+current branch.
+![](images/screenshots/17-EclipseAfterBranchSwitch.png?raw=true)
+
 Make changes: branch? / commit.
 
 Delete project.
@@ -272,3 +290,10 @@ seem like a good idea for anything that would be worth creating a repo for in
 the first place, but just so that we can say "We Got The T-Shirt" here we go...
 
 ### Step 5: Getting SSH Access to a GitHub Repository
+
+
+Our next set of activities involve making changes to the *'GitHub'* hosted
+project for these to be allowed by *'GitHub'* we'll need to login.
+## Github security
+> There are a few ways to securely interact with Github, I would recommend
+> configuring SSH access which we cover later
