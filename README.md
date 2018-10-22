@@ -280,7 +280,43 @@ indicator in the *'Project Explorer'* will confirm that 'Users' is the
 current branch.
 ![](images/screenshots/17-EclipseAfterBranchSwitch.png?raw=true)
 
-Make changes: branch? / commit.
+Now we're ready to  make a change and commit it. We really want to keep things
+as simple as possible, so we'll add a file in the *'users'* directory, with
+some deeply meaningful text and commit the change.
+
+With the project explorer selected you should be able to see your new file
+which could be similar to mine. Open the *'Git Staging'* view if it isn't and
+your new file should be listed in *'Unstaged Changes'*, note that git has
+enough information to know you are the Author and Committer, this information
+can be set globally or on a per-project basis, but in this case I think it is
+known because we cloned the project via HTTPS and would have had to have been
+logged in to *'github.com'* when we did and it's the details from that account
+which have been used here.
+![](images/screenshots/18-EclipseAddingNewFile.png?raw=true)
+
+## Git commit process
+> Making a commit to a server in Git is actually a 3 step process, first you
+> *stage* your changes, second you *commit* them and finally you *push* those
+> changes to server. You don't need to *push* your commits, in some cases
+> you might be on a local only repository so wouldn't have anywhere to push to,
+> but in our example we'll *push* the changes to *'GitHub'*
+
+With the *'Git Staging'* view still open, we're going to commit the new file.
+Let's stage our changes by clicking on the *'Add'* button in the
+*'Unstaged Changes'* pane, your file should now be in the *'Staged Changes'*
+pane. Next add a *'Commit Message'*, every commit has to have a message and
+in practice try to make these succinctly descriptive, you get better at that
+with practice! Now we'll live on the Egit edge and combine the last steps
+by clicking the *'Commit and Push'* button.
+![](images/screenshots/19-EclipseStageAndCommit.png?raw=true)
+
+## Login to GitHub
+> Unless Egit has previously saved your user credentials you will need to
+> provide them now to be able to continue.
+
+Once the *'Commit and Push'* has completed a *'Push Results'* window will
+confirm what action was performed.
+![](images/screenshots/20-EclipsePushResults.png?raw=true)
 
 Delete project.
 
