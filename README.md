@@ -326,7 +326,9 @@ confirm what action was performed.
 You can now also view the change on *'GitHub'* by heading back to:
 ![test-github-clone](https://github.com/ockertbotha/test-github-clone)
 where on the *'Code'* tab you can select the *'Users'* branch and your new
-file should be listed
+file should be listed.
+![](images/screenshots/21-GitHubUsersBranch.png?raw=true)
+
 
 Remove the project locally.
 
