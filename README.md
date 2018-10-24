@@ -1,10 +1,15 @@
 # java-dev-on-ubuntu
-Setting up a Java development environment on Ubuntu desktop.
+Setting up a basic Java development environment on Ubuntu desktop.
 
-Our current development environment is going to consist of:
+Our development environment is going to consist of:
 1. Ubuntu 18.04 LTS
 2. asdf version manager with Java extensions
-3. Eclipse with git integration
+3. Eclipse
+4. Version Control with Git and Eclipse EGit
+
+### Coming Soon - Other Guides
+> Off of the back of this guide I hope to make a few more available in
+> particular to cover SSH access and which git GUI tool to use in Windows.
 
 ## 1. Ubuntu 18.04 LTS
 This guide is not going to cover the installation and configuration of the OS
@@ -14,7 +19,6 @@ confirmed here for completeness:
 - Ubuntu 18.04 LTS
 - git-core
 - curl
-- ssh
 - atom.io (https://atom.io/) for text editing needs
 
 Unless it is stated differently, all commands should be entered using the Terminal.
@@ -66,7 +70,7 @@ If all is not as it seems you can confirm which java is running with:
 ```
 which java
 ```
-Which should point to your version of the shims file:
+This should point to your version of the shims file:
 ```
 /home/yourusername/.asdf/shims/java
 ```
@@ -133,24 +137,24 @@ just know it's a type of system used by developers to manage the source code
 they write. Obviously there is a lot more to it than that and the following
 link provides an excellent overview of how Git works and compares it to some of
 the other systems.
-[Git for Eclipse Users]http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users
+[Git for Eclipse Users](http://wiki.eclipse.org/EGit/Git_For_Eclipse_Users)
 
 ### 4.2 Installing EGit
 Our version of Eclipse already as Egit installed. We will confirm this in
 the next section.
 
 ### 4.3 EGit User Guides
-The guides listed in this section are extensive covering many aspects of
-EGit you may not use, but it might be good to know they exist.
+The guides listed in this section are extensive and cover many aspects of
+EGit, you may not use it all, but it might be good to know they exist.
 
 > You may jump to the next section to continue with a simple
 > step-by-step guide, but remember the guides listed here
 > have much more information which you may find useful.
 
-* [Official EGit User Guider] http://wiki.eclipse.org/EGit/User_Guide#Getting_Started.2FAdding_a_project_to_version_control
-* [Vogella: Git version control with Eclipse/Egit] http://www.vogella.com/tutorials/EclipseGit/article.html#exercise-working-with-a-local-git-repository-in-eclipse
+* [Official EGit User Guider] (http://wiki.eclipse.org/EGit/User_Guide#Getting_Started.2FAdding_a_project_to_version_control)
+* [Vogella: Git version control with Eclipse/Egit] (http://www.vogella.com/tutorials/EclipseGit/article.html#exercise-working-with-a-local-git-repository-in-eclipse)
 
-## 5. Step-by-step: Setting up your local Eclipse Git friendly Workspace
+## 4.4 Step-by-step: Setting up your local Eclipse Git friendly Workspace
 ### Step 1: Where's git? Egit? ...anyone?
 From the main Eclipse window navigate to
 **Window** > **Show View** > **Other** this will open the **Show View** window.
@@ -164,9 +168,8 @@ installed the correct version of Eclipse.
 ![](images/screenshots/02-Menus.png?raw=true)
 
 While we're here let's add the **Git Repositories** view to our workspace
- by selecting it and choosing **Open**.
-
-It might be added to the bottom part of your workspace like this:
+ by selecting it and choosing **Open**. It might be added to the bottom
+ part of your workspace like this:
 ![](images/screenshots/03-1-MoveWindow.png?raw=true)
 
 I prefer to have it to the left, next to the **Project View** you can simply
@@ -217,7 +220,7 @@ Voila! The project is cloned.
 ![](images/screenshots/10-EgitCloneComplete.png?raw=true)
 
 Let's use the Terminal to take a look at what was cloned, the first command
-navigates us to the correct starting place for the commmands
+navigates us to the correct starting place for the commands
 that follow, but as long as the path given to any of the commands
 resolves correctly you can do this anyway you like:
 ```
@@ -232,7 +235,7 @@ project, this might change as we test a few concepts but as long as you have
 the directory and some files you're good.
 
 That view of the project is as much as we are really interested in, but of
-course there is a lot more to a git project and if you interested to see the
+course there is a lot more to a git project and if you want to see the
 full scope of what we have cloned you can run the following command:
 ```
 tree -lsa test-github-clone/
@@ -262,7 +265,7 @@ Once the import has completed the project including the README.md is available
 to view in your *'Eclipse Workspace'*
 ![](images/screenshots/15-EclipseAfterProjectImport.png?raw=true)
 
-
+### Step 4: Switching branches
 Now would be a good time for you to make a change and commit it. But before we
 go wild let's switch to a branch created just for that purpose.
 
@@ -280,6 +283,7 @@ indicator in the *'Project Explorer'* will confirm that 'Users' is the
 current branch.
 ![](images/screenshots/17-EclipseAfterBranchSwitch.png?raw=true)
 
+### Step 5: Making your changes
 Now we're ready to  make a change and commit it. We really want to keep things
 as simple as possible, so we'll add a file in the *'users'* directory, with
 some deeply meaningful text and commit the change.
@@ -301,6 +305,7 @@ which have been used here.
 > you might be on a local only repository so wouldn't have anywhere to push to,
 > but in our example we'll *push* the changes to *'GitHub'*
 
+### Step 6: Commit your changes
 With the *'Git Staging'* view still open, we're going to commit the new file.
 Let's stage our changes by clicking on the *'Add'* button in the
 *'Unstaged Changes'* pane, your file should now be in the *'Staged Changes'*
@@ -310,7 +315,7 @@ with practice! Now we'll live on the Egit edge and combine the last steps
 by clicking the *'Commit and Push'* button.
 ![](images/screenshots/19-EclipseStageAndCommit.png?raw=true)
 
-## Login to GitHub
+## Login to GitHub?
 > Unless Egit has previously saved your user credentials you will need to
 > provide them now to be able to continue.
 
@@ -318,18 +323,13 @@ Once the *'Commit and Push'* has completed a *'Push Results'* window will
 confirm what action was performed.
 ![](images/screenshots/20-EclipsePushResults.png?raw=true)
 
-Delete project.
+You can now also view the change on *'GitHub'* by heading back to:
+![test-github-clone](https://github.com/ockertbotha/test-github-clone)
+where on the *'Code'* tab you can select the *'Users'* branch and your new
+file should be listed
 
-### Step 4: Add a local git project
-You can clone git repo from anywhere and even keep them local, which doesn't
-seem like a good idea for anything that would be worth creating a repo for in
-the first place, but just so that we can say "We Got The T-Shirt" here we go...
+Remove the project locally.
 
-### Step 5: Getting SSH Access to a GitHub Repository
-
-
-Our next set of activities involve making changes to the *'GitHub'* hosted
-project for these to be allowed by *'GitHub'* we'll need to login.
-## Github security
-> There are a few ways to securely interact with Github, I would recommend
-> configuring SSH access which we cover later
+### Coming Soon - Other Guides
+> As stated earlier,  I hope to make a few more available in
+> particular to cover SSH access and which git GUI tool to use in Windows.
