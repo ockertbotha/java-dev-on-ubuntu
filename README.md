@@ -2,12 +2,12 @@
 Setting up a basic Java development environment on Ubuntu desktop.
 
 Our development environment is going to consist of:
-1. Ubuntu 18.04 LTS
-2. asdf version manager with Java extensions
-3. Eclipse
-4. Version Control with Git and Eclipse EGit
+[1. Ubuntu 18.04 LTS](#-1.-ubuntu-18.04-lts)
+[2. asdf](#-2.-asdf)
+[3. Eclipse](#-3.-eclipse)
+[4. Version Control with Git and Eclipse EGit](#-4.-version-control-with-git-and-eclipse-egit)
 
-### Coming Soon - Other Guides
+### Coming Soon(ish) - Other Guides
 > Off of the back of this guide I hope to make a few more available in
 > particular to cover SSH access and which git GUI tool to use in Windows.
 
@@ -329,8 +329,25 @@ where on the *'Code'* tab you can select the *'Users'* branch and your new
 file should be listed.
 ![](images/screenshots/21-GitHubUsersBranch.png?raw=true)
 
+### Step 6: Tidy up time
+With your changes now pushed to *'GitHub'* we can safely remove the project from
+your local machine. This is a straightforward *'Eclipse'* delete but we'll cover
+in detail for those that are unsure.
 
-Remove the project locally.
+From the *'Project Explorer'* right-click on our project and select *'Delete'* .
+![](images/screenshots/22-EclipseDeleteMenu.png?raw=true)
+
+On the *'Delete Resources'* dialogue you can safely select
+*'Delete project contents on disk...'* because your changes have been pushed
+to the server, just confirm that it the *'Project Location'* value is correct
+and click *'OK'*. All the project files including the directory will be removed
+from your *'Eclipse Workspace'* and local machine. You are welcome to step back
+in this guide and *'Clone'* it all back again.
+![](images/screenshots/23-EclipseDeleteResources.png?raw=true)
+
+### Thank You
+> I hope this guide helped you and please do let me know if you
+> spot any errors or have any comments.
 
 ### Coming Soon - Other Guides
 > As stated earlier,  I hope to make a few more available in
