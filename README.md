@@ -150,8 +150,8 @@ EGit, you may not use it all, but it might be good to know they exist.
 > step-by-step guide, but remember the guides listed here
 > have much more information which you may find useful.
 
-* [Official EGit User Guider] (http://wiki.eclipse.org/EGit/User_Guide#Getting_Started.2FAdding_a_project_to_version_control)
-* [Vogella: Git version control with Eclipse/Egit] (http://www.vogella.com/tutorials/EclipseGit/article.html#exercise-working-with-a-local-git-repository-in-eclipse)
+* [Official EGit User Guider](http://wiki.eclipse.org/EGit/User_Guide#Getting_Started.2FAdding_a_project_to_version_control)
+* [Vogella: Git version control with Eclipse/Egit](http://www.vogella.com/tutorials/EclipseGit/article.html#exercise-working-with-a-local-git-repository-in-eclipse)
 
 ## 4.4 Step-by-step: Setting up your local Eclipse Git friendly Workspace
 ### Step 1: Where's git? Egit? ...anyone?
@@ -163,12 +163,12 @@ In the search bar enter *'Git'* if everything is installed correctly this will
 display a list of the available Git views. If the *'Git'* options are
 not displayed then you will need to perform some troubleshooting which is
 beyond the scope of the current guide; but as a hint make sure you've
-installed the correct version of Eclipse.
+installed the correct version of Eclipse.  
 ![](images/screenshots/02-Menus.png?raw=true)
 
 While we're here let's add the **Git Repositories** view to our workspace
- by selecting it and choosing **Open**. It might be added to the bottom
- part of your workspace like this:
+by selecting it and choosing **Open**. It might be added to the bottom
+part of your workspace like this:
 ![](images/screenshots/03-1-MoveWindow.png?raw=true)
 
 I prefer to have it to the left, next to the **Project View** you can simply
