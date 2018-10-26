@@ -2,10 +2,10 @@
 Setting up a basic Java development environment on Ubuntu desktop.
 
 Our development environment is going to consist of:
-1. [Ubuntu 18.04 LTS](#-1-ubuntu-1804-lts)
-2. [asdf](#-2-asdf)
-3. [Eclipse](#-3-eclipse)
-4. [Version Control with Git and Eclipse EGit](#-4-version-control-with-git-and-eclipse-egit)
+1. [Ubuntu 18.04 LTS](#1-ubuntu-1804-lts)
+2. [asdf](#2-asdf)
+3. [Eclipse](#3-eclipse)
+4. [Version Control with Git and Eclipse EGit](#4-version-control-with-git-and-eclipse-egit)
 
 ### Coming Soon(ish) - Other Guides
 > Off of the back of this guide I hope to make a few more available in
