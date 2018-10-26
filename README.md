@@ -299,7 +299,7 @@ which have been used here.
 
 ## Git commit process
 > Making a commit to a server in Git is actually a 3 step process, first you
-> *stage* your changes, second you *commit* them and finally you *push* those
+> **stage** your changes, second you **commit** them and finally you **push** those
 > changes to server. You don't need to *push* your commits, in some cases
 > you might be on a local only repository so wouldn't have anywhere to push to,
 > but in our example we'll *push* the changes to *'GitHub'*
