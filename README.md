@@ -15,7 +15,6 @@ Our development environment is going to consist of:
 This guide is not going to cover the installation and configuration of the OS
 or the tools and utilities used to reach this point but they are
 confirmed here for completeness:
-- [ ] Next clean installation change this section to include the details on how to check for and correctly install some of the utilities, especially cover ssh key file permissions.
 - Ubuntu 18.04 LTS
 - git-core
 - curl
@@ -178,8 +177,8 @@ Like this:
 ![](images/screenshots/04-MoveWindow.png?raw=true)
 
 ### Step 2: Clone GitHub projects
-There are many (...well a few) ways to clone these cats... umm sorry projects.
-We'll start with the simplest and work our way up.
+There are many (...well a few) ways to clone these projects.
+We'll start with the simplest.
 
 **Using HTTPS**
 In a web browser navigate to a GitHub project home of your choice, but
@@ -187,33 +186,33 @@ definitely choose to go to this one if you're following the guide closely:
 ![test-github-clone](https://github.com/ockertbotha/test-github-clone)
 
 On the page; make sure you're viewing the **<> Code** tab, click on the
-*'Clone or download'* button, if the box opens up a **Clone with SSH** title,
-click the *'Use HTTPS'* link.
+**'Clone or download'** button, if the box opens up a **Clone with SSH** title,
+click the **'Use HTTPS'** link.
 ![](images/screenshots/05-1-GithubFirstCloneSSH.png?raw=true)
 
 With the **Clone with HTTPS** details showing you can copy the URL by
-clicking the copy button.
+clicking the **copy** button.
 ![](images/screenshots/06-1-GithubFirstCloneHTTP.png?raw=true)
 
 From the **Git Repositories** view we opened earlier click on the
-*'Clone a Git repository'* link this will open the *'Clone Git Repository'*
-window, paste the URL we copied from *'GitHub'* into the URI field the
+**'Clone a Git repository'** link this will open the **'Clone Git Repository'**
+window, paste the URL we copied from **'GitHub'** into the URI field the
 rest of the underlined fields automatically populate after the paste,
 but check that they match the values below. For this type of *'Clone'*
-we won't need any authentication and you may click *'Next'*.
+we won't need any authentication and you may click **'Next'**.
 ![](images/screenshots/07-EgitSourceSetting.png?raw=true)
 
-When the *'Branch Selection'* window launches it should have selected the
-*'master'* by default, if not then make sure it is selected, and click *'next'*.
+When the **'Branch Selection'** window launches it should have selected the
+**'master'** by default, if not then make sure it is selected, and click
+**'next'**.
 ![](images/screenshots/08-EgitBranchSelection.png?raw=true)
 
-
-Since we're keeping things simple this time around, in the *'Local Destination'*
-window change the value of the *'Directory'* field to:
+Since we're keeping things simple this time around, in the
+**'Local Destination'** window change the value of the **'Directory'** field to:
 ```
 /home/yourusername/Studio/Dev/test-github-clone
 ```
-and click *'Finish'*.
+and click **'Finish'**.
 ![](images/screenshots/09-EgitLocalDestination.png?raw=true)
 
 Voila! The project is cloned.
@@ -250,19 +249,19 @@ tree -lsa test-github-clone/
 > control systems, at least until we're more familiar with both.
 
 ### Step 3: Managing a project in Eclipse Workspace
-First we'll import the cloned project into our workspace. On the *'Git'* tab,
+First we'll import the cloned project into our workspace. On the **'Git'** tab,
 select the cloned project, right-click to launch
-the context-sensitive menu and select *'Import Projects'*.
+the context-sensitive menu and select **'Import Projects'**.
 ![](images/screenshots/13-EclipseImportProjectMenu.png?raw=true)
 
 We're keeping things simple with a plain import so, on the
-*'Import Projects...'* window that opens make sure that the path of the
-*'Import Source'* field points to the root of the cloned project and select
-*'Finish'*.
+**'Import Projects...'** window that opens make sure that the path of the
+**'Import Source'** field points to the root of the cloned project and select
+**'Finish'**.
 ![](images/screenshots/14-EclipseImportProject.png?raw=true)
 
 Once the import has completed the project including the README.md is available
-to view in your *'Eclipse Workspace'*
+to view in your **'Eclipse Workspace'**
 ![](images/screenshots/15-EclipseAfterProjectImport.png?raw=true)
 
 ### Step 4: Switching branches
@@ -270,27 +269,27 @@ Now would be a good time for you to make a change and commit it. But before we
 go wild let's switch to a branch created just for that purpose.
 
 The branch is called 'Users' and we can switch to it from the
-*'Project Explorer'* by right-clicking on the project folder to open the context
-sensitive menu then opening the *'Team'* menu, then the *'Switch To'* menu which
+**'Project Explorer'** by right-clicking on the project folder to open the context
+sensitive menu then opening the **'Team'** menu, then the **'Switch To'** menu which
 will open a menu of the available branches, currently there are only the
 'master' and 'Users' branches available and since we're already on the 'master'
-branch only the *'Users'* option is enabled. Go ahead and click it to make the
+branch only the **'Users'** option is enabled. Go ahead and click it to make the
 switch.
 ![](images/screenshots/16-EclipseSwitchBranch.png?raw=true)
 
 Once the switch is complete (and it should only take moments) the branch
-indicator in the *'Project Explorer'* will confirm that 'Users' is the
+indicator in the **'Project Explorer'** will confirm that 'Users' is the
 current branch.
 ![](images/screenshots/17-EclipseAfterBranchSwitch.png?raw=true)
 
 ### Step 5: Making your changes
 Now we're ready to  make a change and commit it. We really want to keep things
-as simple as possible, so we'll add a file in the *'users'* directory, with
+as simple as possible, so we'll add a file in the **'users'** directory, with
 some deeply meaningful text and commit the change.
 
 With the project explorer selected you should be able to see your new file
-which could be similar to mine. Open the *'Git Staging'* view if it isn't and
-your new file should be listed in *'Unstaged Changes'*, note that git has
+which could be similar to mine. Open the **'Git Staging'** view if it isn't and
+your new file should be listed in **'Unstaged Changes'**, note that git has
 enough information to know you are the Author and Committer, this information
 can be set globally or on a per-project basis, but in this case I think it is
 known because we cloned the project via HTTPS and would have had to have been
@@ -306,43 +305,44 @@ which have been used here.
 > but in our example we'll *push* the changes to *'GitHub'*
 
 ### Step 6: Commit your changes
-With the *'Git Staging'* view still open, we're going to commit the new file.
-Let's stage our changes by clicking on the *'Add'* button in the
-*'Unstaged Changes'* pane, your file should now be in the *'Staged Changes'*
-pane. Next add a *'Commit Message'*, every commit has to have a message and
+With the **'Git Staging'** view still open, we're going to commit the new file.
+Let's stage our changes by clicking on the **'Add'** button in the
+**'Unstaged Changes'** pane, your file should now be in the **'Staged Changes'**
+pane. Next add a **'Commit Message'**, every commit has to have a message and
 in practice try to make these succinctly descriptive, you get better at that
 with practice! Now we'll live on the Egit edge and combine the last steps
-by clicking the *'Commit and Push'* button.
+by clicking the **'Commit and Push'** button.
 ![](images/screenshots/19-EclipseStageAndCommit.png?raw=true)
 
 ## Login to GitHub?
 > Unless Egit has previously saved your user credentials you will need to
 > provide them now to be able to continue.
 
-Once the *'Commit and Push'* has completed a *'Push Results'* window will
+Once the **'Commit and Push'** has completed a **'Push Results'** window will
 confirm what action was performed.
 ![](images/screenshots/20-EclipsePushResults.png?raw=true)
 
-You can now also view the change on *'GitHub'* by heading back to:
+You can now also view the change on **'GitHub'** by heading back to:
 ![test-github-clone](https://github.com/ockertbotha/test-github-clone)
-where on the *'Code'* tab you can select the *'Users'* branch and your new
+where on the **'Code'** tab you can select the **'Users'** branch and your new
 file should be listed.
 ![](images/screenshots/21-GitHubUsersBranch.png?raw=true)
 
 ### Step 6: Tidy up time
-With your changes now pushed to *'GitHub'* we can safely remove the project from
-your local machine. This is a straightforward *'Eclipse'* delete but we'll cover
+With your changes now pushed to **'GitHub'** we can safely remove the project from
+your local machine. This is a straightforward **'Eclipse'** delete but we'll cover
 in detail for those that are unsure.
 
-From the *'Project Explorer'* right-click on our project and select *'Delete'* .
+From the **'Project Explorer'** right-click on our project and select
+**'Delete'** .
 ![](images/screenshots/22-EclipseDeleteMenu.png?raw=true)
 
-On the *'Delete Resources'* dialogue you can safely select
-*'Delete project contents on disk...'* because your changes have been pushed
-to the server, just confirm that it the *'Project Location'* value is correct
-and click *'OK'*. All the project files including the directory will be removed
-from your *'Eclipse Workspace'* and local machine. You are welcome to step back
-in this guide and *'Clone'* it all back again.
+On the **'Delete Resources'** dialogue you can safely select
+**'Delete project contents on disk...'** because your changes have been pushed
+to the server, just confirm that it the **'Project Location'** value is correct
+and click **'OK'**. All the project files including the directory will be removed
+from your **'Eclipse Workspace'** and local machine. You are welcome to step back
+in this guide and **'Clone'** it all back again.
 ![](images/screenshots/23-EclipseDeleteResources.png?raw=true)
 
 ### Thank You
